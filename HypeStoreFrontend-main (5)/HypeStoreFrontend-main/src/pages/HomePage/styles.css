@@ -1,0 +1,22 @@
+.list-wrap {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+.listItem-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.img-box{
+    height: 100%;
+    width: 100%;
+}
+.titlecategory{
+  padding: 0 10vw;
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
